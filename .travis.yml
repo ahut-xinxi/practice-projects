@@ -1,0 +1,17 @@
+language: node_js
+before_install:
+  - git config --global push.default matching
+  - git config --global user.name "erguotou"
+  - git config --global user.email "erguotou525@gmail.com"
+install:
+  - npm install -g gitbook-cli
+script:
+  - gitbook build
+  - cd _book
+  - git init
+  - git add -A
+  - git commit -m "Auto build"
+  - git push -u https://$GH_TOKEN@github.com/ahut-xinxi/practice-projects.git HEAD:gh-pages --force
+cache:
+  directories:
+    - $(npm config get prefix)/gitbook-cli
