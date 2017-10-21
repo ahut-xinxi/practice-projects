@@ -8,6 +8,7 @@
   * [前端开发基础](knowledge/WEB.md)
   * [后端开发基础](knowledge/SERVER.md)
 * [实战项目](project/README.md)
+  * [个人简历快速生成](project/RESUME.md)
   * [增删改查系统](project/CRUD.md)
   * [身份认证即服务](project/AAAS.md)
 * [能力提升](improve/README.md)
