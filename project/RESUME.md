@@ -34,6 +34,7 @@
     - name 技能名称
     - level 掌握程度 0-100
   - skillDescription 技能说明
+
 [新增/编辑的原型地址](https://www.processon.com/view/link/59eb4635e4b012b70ca0f298)
 ### 前台展示
 点击单个纪录的预览按钮将打开对应简历的预览页面，前台展示页面将直接使用开源项目生成，[项目地址](https://github.com/salomonelli/best-resume-ever)
